@@ -139,7 +139,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"Command"		"show_maps_details_explanation"
+			"Command"		"show_explanations"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"

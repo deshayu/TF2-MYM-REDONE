@@ -161,175 +161,96 @@
 		}
 	}
 	
-	"Background"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"-200"
-		"wide"			"o1.6"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+    "Background"
+    {
+        "ControlName"   "ScalableImagePanel"
+        "fieldName"     "Background"
+        "xpos"          "cs-0.5"
+        "ypos"          "0"
+        "zpos"          "-200"
+        "wide"          "o1.6"
+        "tall"          "f0"
+        "visible"       "0"
+        "enabled"       "1"
+        "image"         ""
+        "scaleImage"    "1"
+        "proportionaltoparent"  "1"
+        
+        if_wider
+        {
+            "wide"          "f0"
+            "tall"          "o0.628"
+        }
 
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"o0.628"
-		}
-
-		if_taller
-		{
-			"wide"			"o1.6"
-			"tall"			"f0"
-		}
-		
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-//		if_eotl_launch
-//		{
-//			"image"		"../console/title_eotl01"
-//		}
-		if_spy_vs_engy_war
-		{
-			"image"		"../console/background_sve_01"
-		}
-//		if_operation
-//		{
-//			"image"		"../console/title_team_tough_break"
-//		}
-//		if_community_update
-//		{
-//			"image"		"../console/title_invasion"
-//		}
-
-		if_meet_your_match_0
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_heavy01_blu_widescreen"
-		}
-		if_meet_your_match_1
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_heavy01_red_widescreen"
-		}
-		if_meet_your_match_2
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_pyro01_blu_widescreen"
-		}
-		if_meet_your_match_3
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_pyro01_red_widescreen"
-		}
-		if_meet_your_match_4
-		{
-			"image"		"../console/title_team_competitive_widescreen"
-		}
-	}
+        if_taller
+        {
+            "wide"          "o1.6"
+            "tall"          "f0"
+        }
+        
+        if_halloween_0
+        {
+            "image"     "../console/title_team_halloween2011_widescreen"
+        }
+        if_halloween_1
+        {
+            "image"     "../console/title_team_halloween2012_widescreen"
+        }
+        if_halloween_2
+        {
+            "image"     "../console/title_team_halloween2013_widescreen"
+        }
+        if_halloween_3
+        {
+            "image"     "../console/title_team_halloween2014_widescreen"
+        }
+        if_halloween_4
+        {   
+            "image"     "../console/title_team_halloween2015_widescreen"
+        }
+        if_halloween_5
+        {   
+            "image"     "../console/title_scream_fortress_2017_widescreen"
+        }
+        if_fullmoon
+        {
+            "image"     "../console/title_fullmoon_widescreen"
+        }
+        if_christmas
+        {
+            "image"     "../console/background_xmas2011_widescreen"
+        }       
+    }
 					
-	"TFLogoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
-		"ypos"			"24"
-		"zpos"			"1"
-		"wide"			"256"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-
-//		if_operation
-//		{
-//			"image"		"../logo/tough_break_logo"
-//		}
-
-		if_meet_your_match_0
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		if_meet_your_match_1
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		if_meet_your_match_2
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		if_meet_your_match_3
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		if_meet_your_match_4
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-	}	
-	
-	"TFCharacterImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"99999999"
-		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-	}
+    "TFLogoImage"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "TFLogoImage"
+        "xpos"          "c-290"
+        "ypos"          "24"
+        "zpos"          "-6"
+        "wide"          "256"
+        "tall"          "64"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "../logo/new_tf2_logo"
+        "scaleImage"    "1"
+        "mouseinputenabled" "0"
+    }   
+    
+    "TFCharacterImage"
+    {
+        //"ControlName" "ImagePanel"
+        "fieldName"     "TFCharacterImage"
+        "xpos"          "c-250"
+        "ypos"          "-80"
+        "zpos"          "-99"
+        "wide"          "600"
+        "tall"          "600"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1"
+    }
 	
 	"MainMenuBGPanel"
 	{
@@ -1380,380 +1301,6 @@
 		}
 	}
 
-	"PlayListContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayListContainer"
-		"xpos"			"c-290"
-		"ypos"			"145"
-		"zpos"			"-52"
-		"wide"			"260"
-		"tall"			"0"
-		"visible"		"1"
-
-		"PlaylistBGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PlaylistBGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"-260"
-			"zpos"			"-1"
-			"wide"			"p0.98"
-			"tall"			"261"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"2"
-			"autoResize"	"1"
-
-			"PlayListDropShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlaylistBGPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"5"
-				"zpos"			"100"
-				"wide"			"p0.95"
-				"tall"			"p0.95"
-				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-			}
-
-			"PlayListContainer"
-			{
-				"ControlName"	"CExScrollingEditablePanel"
-				"fieldName"		"PlayListContainer"
-				"xpos"			"cs-0.5"
-				"ypos"			"5"
-				"wide"			"p0.95"
-				"tall"			"p0.95"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"restrict_width" "0"
-
-				"CasualEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CasualEntry"
-					"xpos"			"0"
-					"ypos"			"3"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_casual"
-					"button_token"		"#MMenu_PlayList_Casual_Button"
-					"button_command"	"play_casual"
-					"desc_token"		"#MMenu_PlayList_Casual_Desc"
-				}
-
-				"CompetitiveEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CompetitiveEntry"
-					"xpos"			"0"
-					"ypos"			"53"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_competitive"
-					"button_token"		"#MMenu_PlayList_Competitive_Button"
-					"button_command"	"play_competitive"
-					"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-				}
-
-				"MvMEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"MvMEntry"
-					"xpos"			"0"
-					"ypos"			"103"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_mvm"
-					"button_token"		"#MMenu_PlayList_MvM_Button"
-					"button_command"	"play_mvm"
-					"desc_token"		"#MMenu_PlayList_MvM_Desc"
-				}
-
-				"ServerBrowserEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"ServerBrowserEntry"
-					"xpos"			"0"
-					"ypos"			"153"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_community_server"
-					"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-					"button_command"	"OpenServerBrowser"
-					"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-				}
-
-				"TrainingEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"TrainingEntry"
-					"xpos"			"0"
-					"ypos"			"203"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_training"
-					"button_token"		"#MMenu_PlayList_Training_Button"
-					"button_command"	"play_training"
-					"desc_token"		"#MMenu_PlayList_Training_Desc"
-				}
-
-				"CreateServerEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CreateServerEntry"
-					"xpos"			"0"
-					"ypos"			"253"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_custom_server"
-					"button_token"		"#MMenu_PlayList_CreateServer_Button"
-					"button_command"	"OpenCreateMultiplayerGameDialog"
-					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-				}
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"TanDark"
-					}
-		
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-		
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-		}
-	}
-
-	"PlayListContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayListContainer"
-		"xpos"			"c-290"
-		"ypos"			"145"
-		"zpos"			"-52"
-		"wide"			"260"
-		"tall"			"0"
-		"visible"		"1"
-
-		"PlaylistBGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PlaylistBGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"-260"
-			"zpos"			"-1"
-			"wide"			"p0.98"
-			"tall"			"261"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"2"
-			"autoResize"	"1"
-
-			"PlayListDropShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlaylistBGPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"5"
-				"zpos"			"100"
-				"wide"			"p0.95"
-				"tall"			"p0.95"
-				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-			}
-
-			"PlayListContainer"
-			{
-				"ControlName"	"CExScrollingEditablePanel"
-				"fieldName"		"PlayListContainer"
-				"xpos"			"cs-0.5"
-				"ypos"			"5"
-				"wide"			"p0.95"
-				"tall"			"p0.95"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"restrict_width" "0"
-
-				"CasualEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CasualEntry"
-					"xpos"			"0"
-					"ypos"			"3"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_casual"
-					"button_token"		"#MMenu_PlayList_Casual_Button"
-					"button_command"	"play_casual"
-					"desc_token"		"#MMenu_PlayList_Casual_Desc"
-				}
-
-				"CompetitiveEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CompetitiveEntry"
-					"xpos"			"0"
-					"ypos"			"53"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_competitive"
-					"button_token"		"#MMenu_PlayList_Competitive_Button"
-					"button_command"	"play_competitive"
-					"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-				}
-
-				"MvMEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"MvMEntry"
-					"xpos"			"0"
-					"ypos"			"103"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_mvm"
-					"button_token"		"#MMenu_PlayList_MvM_Button"
-					"button_command"	"play_mvm"
-					"desc_token"		"#MMenu_PlayList_MvM_Desc"
-				}
-
-				"ServerBrowserEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"ServerBrowserEntry"
-					"xpos"			"0"
-					"ypos"			"153"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_community_server"
-					"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-					"button_command"	"OpenServerBrowser"
-					"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-				}
-
-				"TrainingEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"TrainingEntry"
-					"xpos"			"0"
-					"ypos"			"203"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_training"
-					"button_token"		"#MMenu_PlayList_Training_Button"
-					"button_command"	"play_training"
-					"desc_token"		"#MMenu_PlayList_Training_Desc"
-				}
-
-				"CreateServerEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CreateServerEntry"
-					"xpos"			"0"
-					"ypos"			"253"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_custom_server"
-					"button_token"		"#MMenu_PlayList_CreateServer_Button"
-					"button_command"	"OpenCreateMultiplayerGameDialog"
-					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-				}
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"TanDark"
-					}
-		
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-		
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-		}
-	}
-
 	"CompetitiveAccessInfoPanel"
 	{
 		"ControlName"	"CCompetitiveAccessInfoPanel"
@@ -2145,7 +1692,6 @@
 					"image_armedcolor"	"235 226 202 255"
 				}
 			}
-			
 			"CyclingAd"
 			{
 				"ControlName"			"CCyclingAdContainerPanel"
@@ -2191,7 +1737,7 @@
 					}
 				}
 			}
-
+			
 		} // Background
 
 	} // EventPromo
@@ -2356,7 +1902,6 @@
 
 	} // SafeMode
 	
-
 	"ShowPromoCodesButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2895,7 +2440,7 @@
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"c-158"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-5"
 		"wide"			"30"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2942,7 +2487,7 @@
 		"fieldName"		"AchievementsButton"
 		"xpos"			"c-133"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-4"
 		"wide"			"30"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -2989,7 +2534,7 @@
 		"fieldName"		"CommentaryButton"
 		"xpos"			"c-108"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-3"
 		"wide"			"30"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3036,7 +2581,7 @@
 		"fieldName"		"CoachPlayersButton"
 		"xpos"			"c-83"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3083,7 +2628,7 @@
 		"fieldName"		"WorkshopButton"
 		"xpos"			"c-63"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-3"
 		"wide"			"30"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3114,7 +2659,7 @@
 			"fieldName"		"SubImage"
 			"xpos"			"9"
 			"ypos"			"6"
-			"zpos"			"1"
+			"zpos"			"-5"
 			"wide"			"15"
 			"tall"			"15"
 			"visible"		"1"
@@ -3177,7 +2722,7 @@
 		"fieldName"		"ReportBugButton"
 		"xpos"			"c-14"
 		"ypos"			"437"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"30"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3223,7 +2768,7 @@
 		"fieldName"		"SettingsButton"
 		"xpos"			"c33"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"-5"
 		"wide"			"125"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3360,7 +2905,7 @@
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
 		}				
-	}			
+	}				
 	
 	"DisconnectButton"
 	{

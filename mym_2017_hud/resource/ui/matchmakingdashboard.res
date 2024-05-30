@@ -38,7 +38,7 @@
 			"fieldName"		"Gradient"
 			"xpos"		"0"
 			"ypos"		"0"
-			"wide"		"p0.5"
+			"wide"		"100"
 			"tall"		"f6"
 			"zpos"	"0"
 			"visible"		"1"
@@ -129,132 +129,6 @@
 				"proportionaltoparent"	"1"
 				"image"			"glyph_chat"
 			}
-		}
-
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"40"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"0"
-		}
-
-		"PartySlot1"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot1"
-			"xpos"			"64"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"1"
-		}
-
-		"PartySlot2"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot2"
-			"xpos"			"88"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"2"
-		}
-
-		"PartySlot3"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot3"
-			"xpos"			"112"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"3"
-		}
-
-		"PartySlot4"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot4"
-			"xpos"			"136"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"4"
-		}
-
-		"PartySlot5"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot5"
-			"xpos"			"160"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"5"
 		}
 
 		"QueueContainer"

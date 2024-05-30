@@ -1,4 +1,5 @@
 #base "lobbycontainerframe.res"
+#base "lobbypartycomp.res"
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
@@ -46,7 +47,7 @@
 		"zpos"			"10"
 		"wide"			"200"
 		"tall"			"285"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"

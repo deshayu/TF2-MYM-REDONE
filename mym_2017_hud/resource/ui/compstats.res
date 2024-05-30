@@ -1,4 +1,4 @@
-#base "overrides/matchmakingcompstats.res"
+#base "overrides/matchmakingcompcriteria.res"
 
 "Resource/UI/CompStats.res"
 {
